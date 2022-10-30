@@ -10,9 +10,11 @@ The website will consist of a main index page which will have links to a few rec
 <table>
    <tr>
      <td>HTML</td>
+     <td>CSS</td>
    </tr>
    <tr>
      <td>5</td>
+     <td>3</td>
    </tr> 
 </table>
 
