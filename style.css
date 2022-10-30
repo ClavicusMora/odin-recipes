@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Cursive One';
+    src: url("./Font/Fasthand-Regular.ttf");
+}
+
+* {
+    font-family: 'Cursive One', Arial, Helvetica, sans-serif;
+}
+
+
+.backg, 
+.bg { 
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg{
+    background-image: url("https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_960_720.jpg");
+}
+.backg {
+    background-image: url("https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg");
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 44px;
+}
+
+.audio {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.ul {
+    font-size: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    line-height: 90px;
+    display: block;
+}
+
+
+footer {
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    font-size: small;
+    color: white;
+    text-align: left;
+}
+
+.chicken,
+.soup,
+.salmon {
+    color: black;
+}
+
+.reference {
+    color: black;
+    font-size: 14px;
+}
+.cite {
+    text-align: left;
+}
+
+#wings,
+#salmon,
+#soup {
+    position: absolute;
+    left: 25%;
+    height: 40%;
+    width: 40%;
+    top: 20%;
+    border: 1px solid;
+    border-color: black;
+}
+
+.aright {
+    text-align: right;
+    list-style-position: inside;
+    position: relative;
+    display: block;
+    top: 0;
+    right: 0;
+}
+
+.adown {
+    position: absolute;
+    bottom: 0;
+}
+
+.home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 10%;
+    border: 1px solid;
+    border-color: white;
+}
